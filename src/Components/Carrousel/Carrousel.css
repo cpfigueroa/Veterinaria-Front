@@ -1,0 +1,36 @@
+  .app-container-carousel{
+    max-width: 200px;
+    height: 50%;
+  }
+  .carousel {
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+  }
+  
+  .left-arrow, .right-arrow {
+    cursor: pointer;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .carousel-content {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    max-width: 500px;
+  }
+  
+  .carousel-content img {
+    scroll-snap-align: center;
+    max-width: 100%;
+    margin: 0 10px; /* Espacio entre las imágenes del carrusel */
+  }
+  
+  
+  

@@ -1,0 +1,31 @@
+/* App.css */
+.app-container {
+  /* position: relative; */
+  height: 100vh;
+  overflow: auto;
+  /* background-color: rgb(109, 109, 187,0.5); Cambia esto al color azul deseado */
+  background-image: url('../../assets/img/fondoazul.jpg'); /* Ruta a tu imagen de fondo */
+  background-size: cover;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-grow: 1;
+    
+}
+
+/* .background-image-container {
+  /* position: fixed; */
+  /* top: 55%;
+  left: 50%;
+  transform: translate(-42%, -50%);
+} */ 
+
+.imagen-carrousel img {
+  height: 50%;
+  max-height: 400px;
+  max-width: 400px;
+}
+
+
+
+
