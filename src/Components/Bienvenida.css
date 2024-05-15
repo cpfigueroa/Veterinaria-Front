@@ -1,0 +1,24 @@
+.bienvenida-container {
+    background-image: url("../fondoperritos.png"); /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white; /* Color del texto blanco */
+}
+
+.titulo-principal {
+    font-size: 3em; /* Tamaño del texto grande */
+    color: white;
+    background-color: transparent;
+}
+
+.texto-derecha {
+    width: 50%; /* Ajusta el ancho del texto */
+    padding: 20px; /* Agrega un poco de espacio alrededor del texto */
+    background-color: rgba(255, 255, 255, 0); /* Fondo blanco semi-transparente */
+    text-align: justify; /* Justifica el texto */
+}
