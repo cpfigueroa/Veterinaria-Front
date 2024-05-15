@@ -11,14 +11,21 @@
 }
 #card1{   
         background-image: url("../assets/perrito1.avif");
+        background-size: cover;
+        background-position: center;
+      
 
 }
 #card2{
         background-image: url("../assets/perrito2.jpg");
+        background-size: cover;
+        background-position: center;
 
 }
 #card3{
         background-image: url("../assets/perrito3.jpg");
+        background-size: cover;
+        background-position: center;
 
 }
   
@@ -37,7 +44,7 @@
 /* filter: blur();   */}
   
   .card-content {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
     color: white;
     padding: 10px;
   }

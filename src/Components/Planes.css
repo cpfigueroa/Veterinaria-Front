@@ -1,0 +1,37 @@
+/* Estilo general del componente */
+.planes-container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  /* Estilos de los divs de planes */
+  .plan {
+    display: flex; /* Utilizar flexbox para alinear elementos */
+    margin-bottom: 20px; /* Espaciado inferior entre divs */
+  }
+  
+  /* Estilos de las imágenes */
+  .plan-image {
+    flex: 1; /* Ocupar la mitad del espacio disponible */
+  }
+  
+  .plan-image img {
+    width: 100%; /* Ocupar todo el ancho del contenedor */
+    height: 100%; /* Ocupar todo el alto del contenedor */
+    object-fit: cover; /* Escalar la imagen para que llene el contenedor */
+  }
+  
+  /* Estilos del texto descriptivo */
+  .plan-description {
+    flex: 1; /* Ocupar la otra mitad del espacio disponible */
+    background-color: transparent; /* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+  }
+
+  .plan-description p{
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    background-color: transparent;
+  }

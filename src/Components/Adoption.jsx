@@ -4,7 +4,9 @@ import "./Adoption.css";
 export const Adoption = () => {
     return (
         <div>
-<h1 id="adoptanos-title" style={{textAlign: 'center', paddingBottom: '25px'}}>ADOPTANOS!!!</h1>
+            <h1 id="adoptanos-title" style={{textAlign: "center", paddingBottom: "25px"}}>
+                ADOPTANOS!!!
+            </h1>
             <div className="adoption-container">
                 <div className="card" id="card1">
                     <div className="card-background"></div>
