@@ -3,6 +3,7 @@ import './App.css';
 import ScrollReveal from 'scrollreveal';
 import AdminHome from './admin/AdminHome';
 import PatientCRUD from './admin/PatientCRUD';
+import TurnCRUD from './admin/TurnCRUD';
 
 function App() {
 	return (
@@ -10,6 +11,7 @@ function App() {
 			soy app
 			<AdminHome />
 			<PatientCRUD />
+			<TurnCRUD />
 		</div>
 	);
 }
