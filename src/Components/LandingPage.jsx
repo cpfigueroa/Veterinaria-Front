@@ -1,23 +1,28 @@
-// Otro archivo donde se importa Bienvenida.js
-import React from 'react';
-import { Bienvenida } from './Bienvenida';
-import { Nosotros } from './Nosotros';
-import { Adoption } from './Adoption';
-import { Planes } from './Planes';
-import { Carousel } from 'react-bootstrap';
-
+// LandingPage.jsx
+import React from "react";
+import Slider from "./Slider"; // Importa el componente Slider como export predeterminado
+import {Bienvenida} from "./Bienvenida";
+import {Nosotros} from "./Nosotros";
+import {Adoption} from "./Adoption";
+import {Planes} from "./Planes";
+import {Veterinario} from "./Veterinario";
+import {Testimonios} from "./Testimonios";
 
 const LandingPage = () => {
-  return (
-    <div>
-        <Bienvenida/>
+    return (
+        <div>
+            {/* <Bienvenida/>
+        <Slider />
         <Nosotros/>
-        <Adoption/>
-        <Planes/>
-        <Carousel/>
-    </div>
-  );
+      
+         */}{" "}
+                 <Adoption/>
+
+            <Planes />
+            <Veterinario />
+            <Testimonios />
+        </div>
+    );
 };
 
-export default  LandingPage;
-
+export default LandingPage;

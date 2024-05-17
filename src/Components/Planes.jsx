@@ -1,36 +1,37 @@
 import React from "react";
 import "./Planes.css"; // Asegúrate de importar tu archivo CSS
-import perrito1 from "../assets/perrito1.avif";
+import perrito1 from "../assets/perrito1.jpg";
 import perrito2 from "../assets/perrito2.jpg";
-import perrito3 from "../assets/perrito3.jpg";
+import perrito3 from "../assets/gatito.jpg";
+// import {Link} from "react-router-dom";    
 
 export const Planes = () => {
     return (
         <div className="planes-container">
+          <h2 className="titulo-planes">Ven y conoce nuestros planes de salud para tu Mascota</h2>
             {/* Primer div */}
             <div className="plan">
                 <div className="plan-image">
                     <img src={perrito1} alt="Imagen 1" />
                 </div>
                 <div className="plan-description">
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quas et at error fugiat molestias
-                    omnis inventore, dolores exercitationem aut voluptate distinctio neque repellendus reiciendis cum
-                    vel porro, animi qui.{" "}
-                  </p>
-                    
+                  <a href="https://mail.google.com" target="blank">
+                    <p>
+                           Plan: primeros pasos: servicios para mascotas de 0 a 5 años
+                        </p>
+                  </a>
+                        
                 </div>
             </div>
 
             {/* Segundo div */}
-            <div className="plan">
-            <div className="plan-description">
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quas et at error fugiat molestias
-                    omnis inventore, dolores exercitationem aut voluptate distinctio neque repellendus reiciendis cum
-                    vel porro, animi qui.{" "}
-                  </p>
-                    
+            <div className="plan" id="divReverse">
+                <div className="plan-description">
+                <a href="https://mail.google.com" target="blank">
+                    <p>
+                    Madurando: servicios para mascotas de 5 a 10 años
+                        </p>
+                  </a>
                 </div>
                 <div className="plan-image">
                     <img src={perrito2} alt="Imagen 2" />
@@ -43,12 +44,11 @@ export const Planes = () => {
                     <img src={perrito3} alt="Imagen 3" />
                 </div>
                 <div className="plan-description">
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quas et at error fugiat molestias
-                    omnis inventore, dolores exercitationem aut voluptate distinctio neque repellendus reiciendis cum
-                    vel porro, animi qui.{" "}
-                  </p>
-                    
+                <a href="https://mail.google.com" target="blank">
+                    <p>
+                    Adultos: servicios para mascotas de más de 10 años.
+                        </p>
+                  </a>
                 </div>
             </div>
         </div>

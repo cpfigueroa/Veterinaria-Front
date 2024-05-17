@@ -27,6 +27,7 @@
     flex: 1; /* Ocupar la otra mitad del espacio disponible */
     background-color: transparent; /* Fondo blanco */
     padding: 20px; /* Espaciado interno */
+    font-size: 2em;
   }
 
   .plan-description p{
@@ -35,3 +36,43 @@
     margin-bottom: 1rem;
     background-color: transparent;
   }
+  .titulo-planes {
+    font-size: 3em; /* Tamaño del título destacado */
+    margin-bottom: 20px; /* Espacio entre el título y el contenido */
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .planes-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .plan{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px; /* Espacio entre cada plan */
+    }
+    #divReverse{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      margin-bottom: 20px; /* Espacio entre cada plan */
+    }
+  
+    .plan-description,
+    .plan-image {
+      width: 100%; /* Ocupa todo el ancho disponible */
+      text-align: center; /* Centra el texto */
+    }
+  
+    .plan-image img {
+      max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+    }
+    .titulo-planes, .plan-description p{
+      font-size: 25px;
+    }
+  }
+  

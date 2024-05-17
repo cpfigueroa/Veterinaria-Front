@@ -4,10 +4,10 @@
   }
   
   .titulo-destacado {
-    font-size: 2em; /* Tamaño del título destacado */
+    font-size: 8em; /* Tamaño del título destacado */
     margin-bottom: 20px; /* Espacio entre el título y el contenido */
   }
   
   .contenido {
-    font-size: 1.2em; /* Tamaño del texto */
+    font-size: 5em; /* Tamaño del texto */
   }

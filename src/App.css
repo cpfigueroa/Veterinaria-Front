@@ -1,4 +1,7 @@
+
+/* Estilos globales */
 * {
-  background-color: rgb(129, 6, 129);
+  background: linear-gradient(to right, rgb(106, 9, 106), rgb(106, 82, 146)); /* Fondo degradado */
   color: white;
+  font-family: 'Poppins', sans-serif; /* Poppins como primera opción, y luego una fuente genérica sans-serif */
 }
