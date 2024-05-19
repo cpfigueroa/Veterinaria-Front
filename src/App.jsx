@@ -1,15 +1,17 @@
 import React from "react";
 import './App.css';
-import LandingPage from "./Components/LandingPage";
+import B from "./Components/Bienvenida/B";
 
 function App() {
     return (
         <div className="my-element">
-            <LandingPage />
-
-    
+            <B />
+   
         </div>
     );
 }
 
 export default App;
+
+
+
