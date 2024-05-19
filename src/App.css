@@ -1,4 +1,11 @@
-.APP{
-/* width: 100vh;
-height: 100vh; */
+
+
+*{
+   background: linear-gradient(to right, rgb(134, 11, 130), rgb(194, 215, 213)); 
+  /* background: linear-gradient(to right, rgb(249, 248, 249), rgb(235, 202, 55)); Fondo degradado */
+  color: white;
+  font-family: 'Poppins', sans-serif; /* Poppins como primera opción, y luego una fuente genérica sans-serif */
 }
+
+
+
