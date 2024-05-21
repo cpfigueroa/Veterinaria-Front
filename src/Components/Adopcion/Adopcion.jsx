@@ -1,5 +1,5 @@
 import React from "react";
-import "../Adopcion/Adopcion.css";
+import "./Adopcion.css";
 
 export const Adoption = () => {
     return (

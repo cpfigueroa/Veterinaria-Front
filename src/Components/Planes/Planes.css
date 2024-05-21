@@ -15,12 +15,26 @@
   .plan-image {
     flex: 1; /* Ocupar la mitad del espacio disponible */
   }
-  
-  .plan-image img {
-    width: 100%; /* Ocupar todo el ancho del contenedor */
-    height: 100%; /* Ocupar todo el alto del contenedor */
-    object-fit: cover; /* Escalar la imagen para que llene el contenedor */
-  }
+    
+  /* .plan-image img { */
+    /* width: 100%; Ocupar todo el ancho del contenedor */
+    /* height: 100%; Ocupar todo el alto del contenedor */
+    /* object-fit: cover; Escalar la imagen para que llene el contenedor */
+  /* } */
+
+/* Planes.css */
+.plan-image img {
+  width: 100%; /* Ocupar todo el ancho del contenedor */
+  height: 100%; /* Ocupar todo el alto del contenedor */
+  object-fit: cover; /* Escalar la imagen para que llene el contenedor */
+  transition: transform 0.3s ease-in-out; /* Transición suave al agrandar */
+}
+
+.plan-image img:hover {
+  transform: scale(1.1); /* Agrandar la imagen en un 10% */
+}
+
+
   
   /* Estilos del texto descriptivo */
   .plan-description {
@@ -31,7 +45,7 @@
   }
 
   .plan-description p{
-    color: white;
+    color: black;
     margin-top: 0;
     margin-bottom: 1rem;
     background-color: transparent;
@@ -71,8 +85,19 @@
     .plan-image img {
       max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
     }
-    .titulo-planes, .plan-description p{
+    .plan-description p{
+    
       font-size: 25px;
     }
+  }
+
+  
+  .titulo-planes {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: purple; /* O puedes usar #800080 para un morado específico */
   }
   

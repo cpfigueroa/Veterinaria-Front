@@ -30,12 +30,7 @@ const B = () => {
         ))}
       </div>
       <h1 className="title">Veterinaria JavaPet los amigos de tu mascota</h1>
-      <div className='box'>
-      {/* <a className='btn btn-carousel white-color secondary-background-color' href="javascript:void(0)" role="button" style="">¡Pide cita ahora!</a> */}
-      <a className='btn btn-carousel white-color secondary-background-color' href="javascript:void(0)" role="button" style={{ display: 'inline-block' }}>¡Pide cita ahora!</a>
-      </div>
-      </div>
-    
+    </div>
     
   );
 };
