@@ -1,25 +1,51 @@
 // LandingPage.jsx
 import React from "react";
-import {B} from "./Bienvenida/B";
-// import Slider from "./Slider"; // Importa el componente Slider como export predeterminado
-// import {Nosotros} from "./Nosotros";
-// import {Adoption} from "./Adoption";
-// import {Planes} from "./Planes";
-// import {Veterinario} from "./Veterinario";
-// import {Testimonios} from "./Testimonios";
+// import "./LandingPage.css"
+import Bienvenida from "../Bienvenida/Bienvenida";
+import Servicios from "../Servicios/Servicios";
+import Slider from "../Deslizante/Slider"; 
+import Publicidad  from "../Publicidad/Publicidad";
+import Clima from '../Clima/Clima';  // Ajusta la ruta según sea necesario
+import {Planes} from "../Planes/Planes";
+import {Veterinario} from "../Veterinario/Veterinario";
+import {Testimonios} from "../Testimonios/Testimonios";
 
 const LandingPage = () => {
     return (
-        <div>
-            <B />
-            {/* <Slider /> */}
-            {/* <Nosotros/> */}
-            {/* <Adoption/> */}
-            {/* <Planes /> */}
-            {/* <Veterinario /> */}
-            {/* <Testimonios /> */}
+        <div className="contenedor-padre">
+            <Bienvenida/> 
+            <Servicios/>
+            <Slider />
+            <br />
+            <br />
+            <br />
+            <Publicidad/>
+            <br />
+            <br />
+            <br />
+            <br />
+            <Planes />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <Testimonios />
+            <br />
+            <br />
+            <br />
+            <br />
+            <Veterinario />
+            <br />
+            <br />
+            <Clima />
+            
+            
         </div>
     );
 };
 
 export default LandingPage;
+
+
+
