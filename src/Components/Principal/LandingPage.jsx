@@ -1,26 +1,44 @@
 // LandingPage.jsx
 import React from "react";
-import "./LandingPage.css"
-// import B from "../Bienvenida/B";
+// import "./LandingPage.css"
+import Bienvenida from "../Bienvenida/Bienvenida";
 import Servicios from "../Servicios/Servicios";
 import Slider from "../Deslizante/Slider"; 
 import Publicidad  from "../Publicidad/Publicidad";
-// import {Nosotros} from "./Nosotros";
-// import {Adoption} from "./Adoption";
+import Clima from '../Clima/Clima';  // Ajusta la ruta según sea necesario
 import {Planes} from "../Planes/Planes";
-// import {Veterinario} from "./Veterinario";
+import {Veterinario} from "../Veterinario/Veterinario";
 import {Testimonios} from "../Testimonios/Testimonios";
 
 const LandingPage = () => {
     return (
         <div className="contenedor-padre">
-            {/* <B/> */}
+            <Bienvenida/> 
             <Servicios/>
             <Slider />
+            <br />
+            <br />
+            <br />
             <Publicidad/>
+            <br />
+            <br />
+            <br />
+            <br />
             <Planes />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <Testimonios />
-            
+            <br />
+            <br />
+            <br />
+            <br />
+            <Veterinario />
+            <br />
+            <br />
+            <Clima />
             
             
         </div>
@@ -28,3 +46,6 @@ const LandingPage = () => {
 };
 
 export default LandingPage;
+
+
+

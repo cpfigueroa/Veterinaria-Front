@@ -10,7 +10,7 @@ export const Planes = () => {
         <div className="container mt-5">
         <div className="row justify-content-center">
           <div className="col-10 col-md-10 planes-container">
-            <h2 className="titulo-planes">Nuestros planes de salud para tu Mascota</h2>
+            <h2 className="titulo-planes">Nuestros planes de salud</h2>
             {/* Primer div */}
             <div className="plan">
               <div className="plan-image">

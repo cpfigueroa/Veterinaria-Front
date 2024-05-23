@@ -1,8 +1,8 @@
 import React from 'react';
 import './Publicidad.css';
 import imagen1 from '../../assets/marca1.png';
-import imagen2 from '../../assets/marca2.png';
-import imagen3 from '../../assets/marca3.jpg';
+import imagen2 from '../../assets/marca3.jpg';
+import imagen3 from '../../assets/marca2.png';
 import imagen4 from '../../assets/marca4.png';
 import imagen5 from '../../assets/marca5.png';
 import imagen6 from '../../assets/marca6.png';

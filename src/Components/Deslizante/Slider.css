@@ -21,3 +21,10 @@
   margin-bottom: 20px;
   color: purple; /* O puedes usar #800080 para un morado específico */
 }
+
+@media (max-width: 320px) {
+  .slider-title {
+    font-size: 1em; /* Ajustar tamaño del título para pantallas muy pequeñas */
+  }
+
+}
