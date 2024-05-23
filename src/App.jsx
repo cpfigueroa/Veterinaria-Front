@@ -1,17 +1,17 @@
-import React from 'react';
-import './App.css'; 
-import ScrollReveal from 'scrollreveal';
-
+import React from "react";
+import './App.css';
+import B from "./Components/Bienvenida/B";
 
 function App() {
- 
-
-  return (
-    <div className='my-element'>
-      soy app
-    </div>
-
-  );
+    return (
+        <div className="my-element">
+            <B />
+   
+        </div>
+    );
 }
 
 export default App;
+
+
+
